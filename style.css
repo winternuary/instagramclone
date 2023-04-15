@@ -3,3 +3,494 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#whole {
+	display: flex;
+    flex-direction: row;
+    align-items: stretch; /*수직방향 정렬*/
+}
+
+#menubar{
+    flex-basis: 17vw;
+    align-items: stretch;
+    position: relative;
+    position: fixed;
+
+}
+/* logo */
+.menubar-logo{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+}
+
+/* home */
+.menubar-home{
+    display: flex;
+    margin: 0;
+}
+#home{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.home-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* search */
+.menubar-search{
+    display: flex;
+    margin: 0;
+}
+#search{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.search-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* find */
+.menubar-find{
+    display: flex;
+    margin: 0;
+}
+#find{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.find-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* reels */
+.menubar-reels{
+    display: flex;
+    margin: 0;
+}
+#reels{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.reels-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* message */
+.menubar-message{
+    display: flex;
+    margin: 0;
+}
+#message{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.message-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* like */
+.menubar-like{
+    display: flex;
+    margin: 0;
+}
+#like{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.like-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* add */
+.menubar-add{
+    display: flex;
+    margin: 0;
+}
+#add{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.add-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+
+/* profile */
+.menubar-profile{
+    display: flex;
+    margin: 0;
+}
+#profile{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.profile-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+}
+
+/* menu */
+.menubar-menu{
+    display: flex;
+    margin: 0;
+}
+#menu{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 170px;
+}
+.menu-text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+}
+
+.line{   
+    border-left: 1px solid rgb(227, 222, 222);
+    height:100%;
+    margin-left: 17vw;
+    position: absolute;
+} 
+
+
+
+/* 중간섹션 */
+#medium{
+    display: flex;
+    flex-basis: 56vw;
+    align-items: stretch;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-left:17vw; /*메뉴바를 fixed로 고정했을 때 화면 겹침 해결방법*/
+    
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0px 0px;
+    padding: 16px 0px;
+    white-space:nowrap; 
+    overflow:auto;  width:600px; height:150px;
+}
+.insta-story{
+    display: flex;
+    list-style-type: none;
+    overflow: auto;
+    
+}
+.insta-story::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    float: left; /*li 가로정렬 */
+}
+
+.story-in-img{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 8px;
+    width: 56px;
+    height: 56px;
+    border-radius: 70%;
+}
+
+.story-text{
+    font-size: small;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.story-2{
+    margin-left: 4px;
+}
+
+.story-3{
+    margin-left: 4px;
+}
+.story-4{
+    margin-left: 4px;
+}
+.story-5{
+    margin-left: 4px;
+}
+.story-6{
+    margin-left: 4px;
+}
+.story-7{
+    margin-left: 4px;
+}
+.story-8{
+    margin-left: 4px;
+}
+.story-9{
+    margin-left: 4px;
+}
+.story-10{
+    margin-left: 4px;
+}
+.poster-section{
+    display: flex;
+}
+.poster-profile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.poster-profile-img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 32px;
+    height: 32px;
+    margin-top: 30px;
+    border-radius: 70%;
+}
+.poster-text{
+    display:flex;
+    flex-direction: row;
+    width: 32px;
+    height: 32px;
+    margin-top: 30px;
+    margin-left: 8px;
+    font-size: 13px;
+}
+.poster-text-hour{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.poster-text-detail{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.poster-img{
+    display: flex;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.poster-detail{
+    display: flex;
+    flex-direction: row;
+
+}
+.poster-like{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.poster-comment{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.poster-share{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.poster-bookmark{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 375px;
+    margin-top: 10px;
+}
+
+.text-like{
+    display: flex;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.text-comment{
+    display: flex;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(161, 161, 161);
+}
+
+hr{
+    display: flex;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.transform-profile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.transform-profile-default{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 70%;
+}
+
+#transform{
+display: flex;
+flex-basis: 17vw;
+align-items: stretch;
+flex-direction: column;
+}
+
+.transform-profile-name{
+    display: flex;
+    flex-direction: row;
+    width: 32px;
+    height: 32px;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.transform-text{
+    display: flex;
+    flex-direction: row;
+    width: 32px;
+    height: 32px;
+    margin-top: 45px;
+    margin-left: 100px;
+    font-size: 13px;
+    color: blue;
+}
+
+.recommend{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    margin-left: 57px;
+    }
+
+.recommend-text{
+    margin-left: 20px;
+    display: flex;
+    font-size: 13px;
+    color: rgb(148, 145, 145);
+}
+
+.recommend-all{
+    display: flex;
+    font-size: 13px;
+    margin-left: 60px;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.follow-img{
+    display:flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 32px;
+    height: 32px;
+    border-radius: 70%;
+}
+
+.follow-profile-id{
+    display: flex;
+    margin-left: 8px;
+    width: 50px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.follow-profile-name{
+    display: flex;
+    margin-left: 8px;
+    font-size:8px;
+    color: rgb(188, 184, 184);
+}
+
+.follow-follow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 90px;
+    font-size: 13px;
+    color: blue;
+}
+
+.meta{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 70px;
+    font-size: 12px;
+    color: rgb(199, 196, 196);
+}
