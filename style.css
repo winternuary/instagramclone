@@ -3,11 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 #whole {
 	display: flex;
@@ -28,12 +23,18 @@
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 25px;
+    width: 103px;
+    height: 29px;
+    fill: none;
 }
 
 /* home */
 .menubar-home{
     display: flex;
     margin: 0;
+    width: 22px;
+    height: 23px;
+    fill: none;
 }
 #home{
     display: flex;
@@ -53,6 +54,9 @@
 .menubar-search{
     display: flex;
     margin: 0;
+    width: 23px;
+    height: 23px;
+    fill: none;
 }
 #search{
     display: flex;
@@ -72,6 +76,10 @@
 .menubar-find{
     display: flex;
     margin: 0;
+    width: 24px;
+    height: 24px;
+    fill: none;
+    
 }
 #find{
     display: flex;
@@ -91,6 +99,9 @@
 .menubar-reels{
     display: flex;
     margin: 0;
+    width: 23px;
+    height: 23px;
+    fill: none;
 }
 #reels{
     display: flex;
@@ -110,6 +121,9 @@
 .menubar-message{
     display: flex;
     margin: 0;
+    width: 23px;
+    height: 20px;
+    fill: none;
 }
 #message{
     display: flex;
@@ -129,6 +143,10 @@
 .menubar-like{
     display: flex;
     margin: 0;
+    width: 24px;
+    height: 21px;
+    fill: none;
+
 }
 #like{
     display: flex;
@@ -148,6 +166,9 @@
 .menubar-add{
     display: flex;
     margin: 0;
+    width: 23px;
+    height: 23px;
+    fill: none;
 }
 #add{
     display: flex;
@@ -168,6 +189,9 @@
 .menubar-profile{
     display: flex;
     margin: 0;
+    width: 23px;
+    height: 20px;
+    fill: none;
 }
 #profile{
     display: flex;
@@ -186,6 +210,9 @@
 .menubar-menu{
     display: flex;
     margin: 0;
+    width: 21px;
+    height: 19px;
+    fill: none;
 }
 #menu{
     display: flex;
