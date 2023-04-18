@@ -20,9 +20,7 @@
 /* logo */
 .menubar--logo{
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 25px;
+    margin: 40px;
     width: 103px;
     height: 29px;
     fill: none;
@@ -83,10 +81,9 @@
 }
 #find{
     display: flex;
-    margin: 4px 0;
+    margin: 4px 15px;
     padding: 12px;
     width: 200px;
-    margin-left: 15px;
 }
 .find--text{
     display: flex;
@@ -105,10 +102,9 @@
 }
 #reels{
     display: flex;
-    margin: 4px 0;
+    margin: 4px 15px;
     padding: 12px;
     width: 200px;
-    margin-left: 15px;
 }
 .reels--text{
     display: flex;
@@ -127,10 +123,9 @@
 }
 #message{
     display: flex;
-    margin: 4px 0;
+    margin: 4px 15px;
     padding: 12px;
     width: 200px;
-    margin-left: 15px;
 }
 .message--text{
     display: flex;
@@ -150,10 +145,9 @@
 }
 #like{
     display: flex;
-    margin: 4px 0;
+    margin: 4px 15px;
     padding: 12px;
     width: 200px;
-    margin-left: 15px;
 }
 .like--text{
     display: flex;
@@ -172,10 +166,9 @@
 }
 #add{
     display: flex;
-    margin: 4px 0;
+    margin: 4px 15px;
     padding: 12px;
     width: 200px;
-    margin-left: 15px;
 }
 .add--text{
     display: flex;
@@ -195,10 +188,9 @@
 }
 #profile{
     display: flex;
-    margin: 4px 0;
+    margin: 4px 15px;
     padding: 12px;
     width: 200px;
-    margin-left: 15px;
 }
 .profile--text{
     display: flex;
@@ -216,11 +208,9 @@
 }
 #menu{
     display: flex;
-    margin: 4px 0;
+    margin: 170px 15px;
     padding: 12px;
     width: 200px;
-    margin-left: 15px;
-    margin-top: 170px;
 }
 .menu--text{
     display: flex;
@@ -271,8 +261,7 @@ li {
 
 .story--in--img{
     display: flex;
-    margin-top: 30px;
-    margin-left: 8px;
+    margin: 30px 8px 0;
     width: 56px;
     height: 56px;
     border-radius: 70%;
@@ -280,38 +269,10 @@ li {
 
 .story--text{
     font-size: small;
-    margin-top: 1px;
     text-align: center;
-}
-
-.story-2{
     margin-left: 4px;
 }
 
-.story-3{
-    margin-left: 4px;
-}
-.story-4{
-    margin-left: 4px;
-}
-.story-5{
-    margin-left: 4px;
-}
-.story-6{
-    margin-left: 4px;
-}
-.story-7{
-    margin-left: 4px;
-}
-.story-8{
-    margin-left: 4px;
-}
-.story-9{
-    margin-left: 4px;
-}
-.story-10{
-    margin-left: 4px;
-}
 .poster--section{
     display: flex;
 }
@@ -323,10 +284,9 @@ li {
 .poster--profile--img{
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
     width: 32px;
     height: 32px;
-    margin-top: 30px;
+    margin: 30px 0px 0px 50px;
     border-radius: 70%;
 }
 .poster--text{
@@ -334,8 +294,7 @@ li {
     flex-direction: row;
     width: 32px;
     height: 32px;
-    margin-top: 30px;
-    margin-left: 8px;
+    margin: 30px 0px 0px 8px;
     font-size: 13px;
 }
 .poster--text--hour{
@@ -353,8 +312,7 @@ li {
 .poster--img{
     display: flex;
     width: 500px;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 50px;
 }
 
 .poster--detail{
@@ -366,63 +324,54 @@ li {
     display: flex;
     width: 24px;
     height: 24px;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 50px;
 }
 .poster--comment{
     display: flex;
     width: 24px;
     height: 24px;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 15px;
 }
 .poster--share{
     display: flex;
     width: 24px;
     height: 24px;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 15px;
 }
 .poster--bookmark{
     display: flex;
     width: 24px;
     height: 24px;
-    margin-left: 375px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 375px;
 }
 
 .text--like{
     display: flex;
     font-size: 14px;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 50px;
 }
 .text--comment{
     display: flex;
     font-size: 12px;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 50px;
     color: rgb(161, 161, 161);
 }
 
 hr{
     display: flex;
     width: 500px;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 50px;
 }
 
 .transform--profile{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
-    margin-left: 50px;
+    margin: 30px 0px 0px 50px;
 }
 
 .transform--profile--default{
     display: flex;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin: 30px 0px 0px 20px;
     width: 56px;
     height: 56px;
     border-radius: 70%;
@@ -440,8 +389,7 @@ flex-direction: column;
     flex-direction: row;
     width: 32px;
     height: 32px;
-    margin-top: 45px;
-    margin-left: 20px;
+    margin: 45px 0px 0px 20px;
     font-size: 13px;
 }
 
@@ -450,8 +398,7 @@ flex-direction: column;
     flex-direction: row;
     width: 32px;
     height: 32px;
-    margin-top: 45px;
-    margin-left: 100px;
+    margin: 45px 0px 0px 100px;
     font-size: 13px;
     color: blue;
 }
@@ -459,8 +406,7 @@ flex-direction: column;
 .recommend{
     display: flex;
     flex-direction: row;
-    margin-top: 7px;
-    margin-left: 57px;
+    margin: 7px 0px 0px 57px;
     }
 
 .recommend--text{
@@ -483,8 +429,7 @@ flex-direction: column;
 }
 .follow--img{
     display:flex;
-    margin-top: 30px;
-    margin-left: 50px;
+    margin: 30px 0px 0px 50px;
     width: 32px;
     height: 32px;
     border-radius: 70%;
@@ -492,10 +437,9 @@ flex-direction: column;
 
 .follow--profile--id{
     display: flex;
-    margin-left: 8px;
     width: 50px;
     font-size: 12px;
-    margin-top: 30px;
+    margin: 30px 0px 0px 8px;
 }
 
 .follow--profile--name{
@@ -508,16 +452,14 @@ flex-direction: column;
 .follow--follow{
     display: flex;
     flex-direction: row;
-    margin-top: 35px;
-    margin-left: 90px;
+    margin: 35px 0px 0px 90px;
     font-size: 13px;
     color: blue;
 }
 
 .meta{
     display: flex;
-    margin-top: 200px;
-    margin-left: 70px;
+    margin: 200px 0px 0px 70px;
     font-size: 12px;
     color: rgb(199, 196, 196);
 }
