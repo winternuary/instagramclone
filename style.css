@@ -18,7 +18,7 @@
 
 }
 /* logo */
-.menubar-logo{
+.menubar--logo{
     display: flex;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -29,7 +29,7 @@
 }
 
 /* home */
-.menubar-home{
+.menubar--home{
     display: flex;
     margin: 0;
     width: 22px;
@@ -43,7 +43,7 @@
     width: 200px;
     margin-left: 15px;
 }
-.home-text{
+.home--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -51,7 +51,7 @@
 }
 
 /* search */
-.menubar-search{
+.menubar--search{
     display: flex;
     margin: 0;
     width: 23px;
@@ -65,7 +65,7 @@
     width: 200px;
     margin-left: 15px;
 }
-.search-text{
+.search--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -73,7 +73,7 @@
 }
 
 /* find */
-.menubar-find{
+.menubar--find{
     display: flex;
     margin: 0;
     width: 24px;
@@ -88,7 +88,7 @@
     width: 200px;
     margin-left: 15px;
 }
-.find-text{
+.find--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -96,7 +96,7 @@
 }
 
 /* reels */
-.menubar-reels{
+.menubar--reels{
     display: flex;
     margin: 0;
     width: 23px;
@@ -110,7 +110,7 @@
     width: 200px;
     margin-left: 15px;
 }
-.reels-text{
+.reels--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -118,7 +118,7 @@
 }
 
 /* message */
-.menubar-message{
+.menubar--message{
     display: flex;
     margin: 0;
     width: 23px;
@@ -132,7 +132,7 @@
     width: 200px;
     margin-left: 15px;
 }
-.message-text{
+.message--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -140,7 +140,7 @@
 }
 
 /* like */
-.menubar-like{
+.menubar--like{
     display: flex;
     margin: 0;
     width: 24px;
@@ -155,7 +155,7 @@
     width: 200px;
     margin-left: 15px;
 }
-.like-text{
+.like--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -163,7 +163,7 @@
 }
 
 /* add */
-.menubar-add{
+.menubar--add{
     display: flex;
     margin: 0;
     width: 23px;
@@ -177,7 +177,7 @@
     width: 200px;
     margin-left: 15px;
 }
-.add-text{
+.add--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -186,7 +186,7 @@
 
 
 /* profile */
-.menubar-profile{
+.menubar--profile{
     display: flex;
     margin: 0;
     width: 23px;
@@ -200,14 +200,14 @@
     width: 200px;
     margin-left: 15px;
 }
-.profile-text{
+.profile--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
 }
 
 /* menu */
-.menubar-menu{
+.menubar--menu{
     display: flex;
     margin: 0;
     width: 21px;
@@ -222,7 +222,7 @@
     margin-left: 15px;
     margin-top: 170px;
 }
-.menu-text{
+.menu--text{
     display: flex;
     padding-left: 12px;
     height: 23px;
@@ -255,13 +255,13 @@
     white-space:nowrap; 
     overflow:auto;  width:600px; height:150px;
 }
-.insta-story{
+.insta--story{
     display: flex;
     list-style-type: none;
     overflow: auto;
     
 }
-.insta-story::-webkit-scrollbar {
+.insta--story::-webkit-scrollbar {
     display: none;
 }
 
@@ -269,7 +269,7 @@ li {
     float: left; /*li 가로정렬 */
 }
 
-.story-in-img{
+.story--in--img{
     display: flex;
     margin-top: 30px;
     margin-left: 8px;
@@ -278,7 +278,7 @@ li {
     border-radius: 70%;
 }
 
-.story-text{
+.story--text{
     font-size: small;
     margin-top: 1px;
     text-align: center;
@@ -312,15 +312,15 @@ li {
 .story-10{
     margin-left: 4px;
 }
-.poster-section{
+.poster--section{
     display: flex;
 }
-.poster-profile{
+.poster--profile{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
 }
-.poster-profile-img{
+.poster--profile--img{
     display: flex;
     flex-direction: row;
     margin-left: 50px;
@@ -329,7 +329,7 @@ li {
     margin-top: 30px;
     border-radius: 70%;
 }
-.poster-text{
+.poster--text{
     display:flex;
     flex-direction: row;
     width: 32px;
@@ -338,52 +338,52 @@ li {
     margin-left: 8px;
     font-size: 13px;
 }
-.poster-text-hour{
+.poster--text--hour{
     display: flex;
     margin-top: 30px;
     margin-left: 50px;
     font-weight: lighter;
     font-size: 13px;
 }
-.poster-text-detail{
+.poster--text--detail{
     display: flex;
     margin-top: 30px;
     margin-left: 300px;
 }
-.poster-img{
+.poster--img{
     display: flex;
     width: 500px;
     margin-left: 50px;
     margin-top: 10px;
 }
 
-.poster-detail{
+.poster--detail{
     display: flex;
     flex-direction: row;
 
 }
-.poster-like{
+.poster--like{
     display: flex;
     width: 24px;
     height: 24px;
     margin-left: 50px;
     margin-top: 10px;
 }
-.poster-comment{
+.poster--comment{
     display: flex;
     width: 24px;
     height: 24px;
     margin-left: 15px;
     margin-top: 10px;
 }
-.poster-share{
+.poster--share{
     display: flex;
     width: 24px;
     height: 24px;
     margin-left: 15px;
     margin-top: 10px;
 }
-.poster-bookmark{
+.poster--bookmark{
     display: flex;
     width: 24px;
     height: 24px;
@@ -391,13 +391,13 @@ li {
     margin-top: 10px;
 }
 
-.text-like{
+.text--like{
     display: flex;
     font-size: 14px;
     margin-left: 50px;
     margin-top: 10px;
 }
-.text-comment{
+.text--comment{
     display: flex;
     font-size: 12px;
     margin-left: 50px;
@@ -412,14 +412,14 @@ hr{
     margin-top: 10px;
 }
 
-.transform-profile{
+.transform--profile{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
     margin-left: 50px;
 }
 
-.transform-profile-default{
+.transform--profile--default{
     display: flex;
     margin-top: 30px;
     margin-left: 20px;
@@ -435,7 +435,7 @@ align-items: stretch;
 flex-direction: column;
 }
 
-.transform-profile-name{
+.transform--profile--name{
     display: flex;
     flex-direction: row;
     width: 32px;
@@ -445,7 +445,7 @@ flex-direction: column;
     font-size: 13px;
 }
 
-.transform-text{
+.transform--text{
     display: flex;
     flex-direction: row;
     width: 32px;
@@ -463,14 +463,14 @@ flex-direction: column;
     margin-left: 57px;
     }
 
-.recommend-text{
+.recommend--text{
     margin-left: 20px;
     display: flex;
     font-size: 13px;
     color: rgb(148, 145, 145);
 }
 
-.recommend-all{
+.recommend--all{
     display: flex;
     font-size: 13px;
     margin-left: 60px;
@@ -481,7 +481,7 @@ flex-direction: column;
     flex-direction: row;
     margin-left: 30px;
 }
-.follow-img{
+.follow--img{
     display:flex;
     margin-top: 30px;
     margin-left: 50px;
@@ -490,7 +490,7 @@ flex-direction: column;
     border-radius: 70%;
 }
 
-.follow-profile-id{
+.follow--profile--id{
     display: flex;
     margin-left: 8px;
     width: 50px;
@@ -498,14 +498,14 @@ flex-direction: column;
     margin-top: 30px;
 }
 
-.follow-profile-name{
+.follow--profile--name{
     display: flex;
     margin-left: 8px;
     font-size:8px;
     color: rgb(188, 184, 184);
 }
 
-.follow-follow{
+.follow--follow{
     display: flex;
     flex-direction: row;
     margin-top: 35px;
