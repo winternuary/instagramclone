@@ -15,6 +15,7 @@
     align-items: stretch;
     position: relative;
     position: fixed;
+    font-weight: bold;
 
 }
 /* logo */
@@ -253,7 +254,9 @@
 }
 .insta--story::-webkit-scrollbar {
     display: none;
+    cursor: pointer;
 }
+
 
 li {
     float: left; /*li 가로정렬 */
@@ -395,6 +398,7 @@ flex-direction: column;
 
 .transform--text{
     display: flex;
+    cursor: pointer;
     flex-direction: row;
     width: 32px;
     height: 32px;
