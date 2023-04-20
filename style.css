@@ -11,7 +11,7 @@
 }
 
 #menubar{
-    flex-basis: 17vw;
+    width: 17vw;
     align-items: stretch;
     position: relative;
     position: fixed;
