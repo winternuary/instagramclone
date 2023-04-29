@@ -3,7 +3,7 @@ const profilename = document.querySelector(".transform-profile-name");
 function onhandleclick(){
     const change = prompt("아이디를 입력하세용");
     
-    if(change==""){
+    if(!change){
         alert("값 입력 안됐는데요 --");
     }
     else{
