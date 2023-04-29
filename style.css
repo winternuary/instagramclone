@@ -223,7 +223,7 @@
 /* 중간섹션 */
 #medium{
     display: flex;
-    flex-basis: 56vw;
+    width: 56vw;
     align-items: stretch;
     flex-direction: column;
     margin-left: 100px;
