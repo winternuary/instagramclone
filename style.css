@@ -5,14 +5,13 @@
 }
 
 #container {
-    display: flex;
-    flex-direction: column; /*수직방향정렬*/
-} 
+	display: flex;
+    align-items: stretch; /*수직방향 정렬*/
+}
 
 #menubar{
     width: 17vw;
     align-items: stretch;
-    position: relative;
     position: fixed;
     font-weight: bold;
 
