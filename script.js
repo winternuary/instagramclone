@@ -13,4 +13,4 @@ function onhandleclick(){
     
 
 
-transform.addEventListener("click", onhandleclick); //transform에 이벤트가 일어났을 때
+transform.addEventListener("click", onHandleClick); //transform에 이벤트가 일어났을 때
