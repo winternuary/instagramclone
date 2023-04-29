@@ -6,7 +6,6 @@
 
 #whole {
 	display: flex;
-    flex-direction: row;
     align-items: stretch; /*수직방향 정렬*/
 }
 
@@ -240,7 +239,6 @@
 }
 .story{
     display: flex;
-    flex-direction: row;
     margin: 16px 0px 0px;
     padding: 16px 0px;
     white-space:nowrap; 
@@ -281,12 +279,10 @@ li {
 }
 .poster--profile{
     display: flex;
-    flex-direction: row;
     margin-top: 30px;
 }
 .poster--profile--img{
     display: flex;
-    flex-direction: row;
     width: 32px;
     height: 32px;
     margin: 30px 0px 0px 50px;
@@ -294,7 +290,6 @@ li {
 }
 .poster--text{
     display:flex;
-    flex-direction: row;
     width: 32px;
     height: 32px;
     margin: 30px 0px 0px 8px;
@@ -320,8 +315,6 @@ li {
 
 .poster--detail{
     display: flex;
-    flex-direction: row;
-
 }
 .poster--like{
     display: flex;
@@ -368,7 +361,6 @@ hr{
 
 .transform--profile{
     display: flex;
-    flex-direction: row;
     margin: 30px 0px 0px 50px;
 }
 
@@ -389,7 +381,6 @@ flex-direction: column;
 
 .transform--profile--name{
     display: flex;
-    flex-direction: row;
     width: 32px;
     height: 32px;
     margin: 45px 0px 0px 20px;
@@ -399,7 +390,6 @@ flex-direction: column;
 .transform--text{
     display: flex;
     cursor: pointer;
-    flex-direction: row;
     width: 32px;
     height: 32px;
     margin: 45px 0px 0px 100px;
@@ -409,7 +399,6 @@ flex-direction: column;
 
 .recommend{
     display: flex;
-    flex-direction: row;
     margin: 7px 0px 0px 57px;
     }
 
@@ -428,7 +417,6 @@ flex-direction: column;
 
 .follow{
     display: flex;
-    flex-direction: row;
     margin-left: 30px;
 }
 .follow--img{
@@ -455,7 +443,6 @@ flex-direction: column;
 
 .follow--follow{
     display: flex;
-    flex-direction: row;
     margin: 35px 0px 0px 90px;
     font-size: 13px;
     color: blue;
