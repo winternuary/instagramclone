@@ -14,7 +14,7 @@
     align-items: stretch;
     position: fixed;
     font-weight: bold;
-
+    border-right: 1px solid rgb(224, 220, 220);
 }
 /* logo */
 .menubar--logo{
@@ -217,12 +217,6 @@
     height: 23px;
 }
 
-.line{   
-    border-left: 1px solid rgb(227, 222, 222);
-    height:100%;
-    margin-left: 17vw;
-    position: absolute;
-} 
 
 
 
