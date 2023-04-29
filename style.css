@@ -6,12 +6,11 @@
 
 #container {
 	display: flex;
-    align-items: stretch; /*수직방향 정렬*/
 }
 
 #menubar{
     width: 17vw;
-    align-items: stretch;
+    flex-direction: column;
     position: fixed;
     font-weight: bold;
     border-right: 1px solid rgb(224, 220, 220);
@@ -224,7 +223,6 @@
 #medium{
     display: flex;
     width: 56vw;
-    align-items: stretch;
     flex-direction: column;
     margin-left: 100px;
     padding-left:17vw; /*메뉴바를 fixed로 고정했을 때 화면 겹침 해결방법*/
@@ -293,7 +291,7 @@ li {
     display: flex;
     margin-top: 30px;
     margin-left: 50px;
-    font-weight: lighter;
+    font-weight: 250px;
     font-size: 13px;
 }
 .poster--text--detail{
@@ -370,7 +368,6 @@ hr{
 #transform{
 display: flex;
 flex-basis: 17vw;
-align-items: stretch;
 flex-direction: column;
 }
 
